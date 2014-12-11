@@ -33,8 +33,8 @@ namespace Config {
 
 
 		Calculadora calc = new Calculadora();
-		stdout.printf ( _("Calculando una division de 4 entre 5\n") );
-		stdout.printf ( _("El resultado es: %g\n"),calc.dividir(4,6) );
+		stdout.printf ( _("Calculando una division de 4 entre 0\n") );
+		stdout.printf ( _("El resultado es: %g\n"),calc.dividir(4,0) );
 		return 0;
 	}
 }

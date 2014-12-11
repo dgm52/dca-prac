@@ -36,6 +36,7 @@ namespace Config {
 		stdout.printf ( _("Calculando una division de 4 entre 0\n") );
 		stdout.printf ( _("El resultado es: %g\n"),calc.dividir(4,0) );
 		stdout.printf ( _("División completada\n") );
+		stdout.printf ( _("Fin de programa\n") );
 		return 0;
 	}
 }

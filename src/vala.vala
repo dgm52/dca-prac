@@ -34,7 +34,7 @@ namespace Config {
 
 		Calculadora calc = new Calculadora();
 		stdout.printf ( _("Calculando una division de 4 entre 5\n") );
-		stdout.printf ( _("El resultado es: %g\n"),calc.dividir(4,5) );
+		stdout.printf ( _("El resultado es: %g\n"),calc.dividir(4,6) );
 		return 0;
 	}
 }
